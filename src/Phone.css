@@ -1,0 +1,27 @@
+.phoneFrame{
+	width: 375px;
+	height: 720px;
+	background-image: linear-gradient(to right, rgb(212, 92, 255) , rgb(97, 180, 253));
+	border-radius: 3rem;
+	border: 1rem solid #ffffff;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 0 50px 18px rgba(250, 241, 255, 0.599);
+}
+
+.notch{
+	width: 150px;
+	height: 30px;
+	background-color: #fff;
+	border-radius: 0 0 3rem 3rem;
+	transform: translateY(-2px);
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
+
+.screen{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border-radius: 2rem;
+}
